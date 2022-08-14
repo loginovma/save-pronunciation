@@ -1,0 +1,30 @@
+{
+
+  "manifest_version": 2,
+  "name": "Save Pronunciation",
+  "version": "1.0",
+
+  "description": "Saves pronunciation from the page",
+
+  "applications": {
+    "gecko": {
+      "id": "borderify@mozilla.org",
+      "strict_min_version": "45.0"
+    }
+  },
+  "icons": {
+    "48": "icons/beasts-48.png"
+  },
+
+  "browser_action": {
+    "default_icon": {
+      "48": "icons/beasts-48.png"
+    },
+    "default_title": "Save Pronunciation",
+    "default_popup": "popup.html"
+  },
+
+  "permissions": [
+    "activeTab"
+  ]
+}
