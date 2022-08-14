@@ -16,6 +16,13 @@
     "48": "icons/beasts-48.png"
   },
 
+  "content_scripts": [
+    {
+      "matches": ["*://*.cambridge.org/*"],
+      "js": ["dist/content-script.js"]
+    }
+  ],
+
   "browser_action": {
     "default_icon": {
       "48": "icons/beasts-48.png"
